@@ -1,0 +1,38 @@
+/* Sidebar menu */
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #37392E;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Menu Links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #DDCECD;
+  display: block;
+}
+
+/* Change colour when hovering */
+.sidenav a:hover {
+  color: #28AFB0;
+}
+
+/* Rounded Sidebar image */
+.sidenav img {
+  border-radius: 50%;
+  max-width: 100px;
+  padding: 10px 20px;
+}
+/* Page content */
+.main {
+  margin-left: 160px;
+  padding-bottom: 10px;
+}
