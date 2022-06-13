@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
-body {font-family: "Poppins", sans-serif; margin: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {font-family: "Poppins", sans-serif; margin: 0; background-color: #2D3142;}
 section {min-height: 100vh;}
-article {width: 90%; max-width: 600px; padding: 20px; margin: 0px auto;}
+article {width: 90%; max-width: 1024px; padding: 20px; margin: 0px auto;}
 p {font-size: 1.5em; text-align: center;}
 section#AboutMe, section#IdealJob, section#Contact {background-color: #4F5D75; color: #FFFFFF;}
 section#Personality, section#ProjectIdea {background-color: #7989A4; color: #FFFFFF;}
@@ -13,3 +14,21 @@ section#Personality, section#ProjectIdea {background-color: #7989A4; color: #FFF
 .nav-links {color: #FFFFFF; text-decoration: none;}
 .nav-links:hover {color: #EF8354; transition: all 0.2s ease-out;}
 .nav-menu img {width: 25px; height: 25px; vertical-align: middle; margin-right: 10px;}
+.footer {position: static; left: 0; bottom: 0; width: 100%; background-color: #2D3142; color: #FFFFFF;}
+.footer p {text-align: right; font-size: 1em; padding-right: 10px;}
+section#AboutMe h1 {font-family: "Muli", sans-serif; font-size: 2.5em;}
+section#AboutMe h2 {font-family: "Muli", sans-serif; font-size: 1.5em;}
+section#AboutMe p {font-family: "Lato", sans-serif; font-size: 1em; text-align: left; padding-left: 20px;}
+.column-2 {background-color: #2D3142; float: left; width: 45%; padding: 25px; padding-left: 20px; padding-right: 20px; padding-bottom: 50px; height: 300px; margin: 6px; margin-right: 5px; margin-bottom: 40px;}
+.column-2 td {padding: 0 30px; font-family: "Lato", sans-serif; padding-bottom: 1em;}
+.info br {display: block; margin: 20px 0;}
+.about-img img {display: block; width: 200px;}
+.about-img {width: 200px; height: 200px; overflow: hidden; border-radius: 50%; transition: all 0.5s ease-in-out;}
+.about-left-content {border-radius: 12px; width:80%;}
+.about-left {display: flex; float: left; align-items: center; justify-content: center; height: 150px; padding-top: 150px; padding-bottom: 150px; width: 25%;}
+.about-right {display: flex; float: left; align-items: center; justify-content: center; height: 150px; padding-top: 150px; padding-bottom: 150px; width: 75%;}
+.about-left-content h2 {font-size: 2rem; line-height: 1.2; padding-bottom: 1rem; border-bottom: 2px solid #EF8354; text-align: center;}
+.about-left-content h3 {text-transform: uppercase; font-weight: 300; letter-spacing: 5px; margin-top: 1.2rem; text-align: center;}
+.icons {display: flex; justify-content: center; padding: 0.8rem 0; border-radius: 0 0 12px 12px; padding-left: 30px;}
+.icons li {list-style-type: none; width: 40px; height: 10px; margin: 0 0.5rem; border-radius: 50%; display: flex; justify-content: center; align-items: center;}
+.icons img {heigh: 25px; width: 25px;}
