@@ -1,97 +1,49 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width">
     <title>Tomas Toohey - ePortflio</title>
     <link type="text/css" rel="stylesheet" href="style.css">
-  </head>
+    <a name="top"></a>
+    </head>
   <body>
-    <div class="sidenav">
-      <img src="myphoto.jpg" alt="Photo of Me" />
-      <a href="#personalInformation">Personal Information</a>
-      <a href="#idealjob">Idel Job</a>
-      <a href="#projectidea">Project Idea</a>
+    <div class="nav-container">
+      <nav class="navbar">
+        <a id="navbar-logo" href="#"><img src="Images\logo.png" style="width: 150px; height: 50px;"/></a>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#AboutMe" class="nav-links"><img src="icons\about.png" alt="About Icon">About Me</a></li>
+          <li><a href="#Personaility" class="nav-links"><img src="icons\personality.png" alt="Personality Icon">Personality Tests</a></li>
+          <li><a href="#IdealJob" class="nav-links"><img src="icons\work.png" alt="Work Icon">Ideal Job</a></li>
+          <li><a href="#ProjectIdea" class="nav-links"><img src="icons\idea.png" alt="Idea Icon">Project Idea</a></li>
+          <li><a href="#Contact" class="nav-links"><img src="icons\contact.png" alt="Contact Icon">Contact</a></li>
+        <ul>
+      </nav>
     </div>
-    <div class="main">
-    <header>
-
-      <h1>Tomas Toohey</h1>
-      <ul>
-        <li>#: s3297766</li>
-        <li>e: <a href="mailto:s3297766@student.rmit.edu.au" target="_blank">s3297766@student.rmit.edu.au</a></li>
-      </ul>
-    </header>
-    <section>
+    <section id="AboutMe">
       <article>
-        <h1 id="personalInformation">Personal Information</h1>
-        <p>Originally from the western suburbs of Victoria and currently living in Townsville QLD. I grew up being the middle child of 5 kids, my dad was from Sicily and mum from England. I met my husband when I was 21 and we have been together for 15 years and married now for 2 years, Got married in 2020 just before the QLD border closed to the rest of the country due to COVID.
-I have always had animals around as pets and right now my house is like a zoo with 1 Southern Banjo, 3 Whites Tree Frogs, Leo (15-year-old Maine Coon), Pacer and Tangela (Cockatiels) and Spike (Rat). I follow AFL and barrack for West Coast Eagles, I know a Victorian that goes for a Western Australian Team. </p>
-      </article>
-      <article>
-        <h2>Education</h2>
-          <ul>
-            <li>Certificate II Hospitality (Operations) - Morton Insitiute of TAFE- 2002</li>
-            <li>VCE - Tyrrell College - 2004</li>
-            <li>Certificate IV Information Technology - Sunraysia Institute of TAFE - 2005</li>
-            <li>Certificate IV Workplace Training and Assessing - Sunraysia Institute of TAFE - 2005</li>
-          </ul>
-        </article>
-        <article>
-          <h2>Interest in IT</h2>
-          <p>I have grown up with IT as it has always been a part of life, starting with the Commodore 64 when I was just 6 and my interest in this area has gone through many different phases from creating Websites to App creation as well as the more general Gaming, RollerCoaster Tycoon and Cities Skylines being some of my favourite time wasters.
-I remember when I was younger my step mum would always bring home different devices that her friends and family were getting rid of for me to build my first computer. Once complete it was a 686 Intel device that ran Windows 3.11.
-I now work for a company that started in Bowen QLD and now has offices in Townsville and Brisbane. I have been in my current role as an embedded Technician for 1 year at a great company that works with Mental Health and the NDIS, I cover 12 sites across Northern and Central Queensland.</p>
-      </article>
-      <article>
-        <h2> Why RMITM?</h2>
-        <p>My choice to come to RMIT was an easy one, when it came down to JCU or RMIT that is. I have always been told that RMIT is the best Uni for Information Technology courses and when researching for reviews it was hard to find a negative one.
-While studying I want to upgrade my current skill set and meet like minded people that are as nerdy as myself.</p>
       </article>
     </section>
-    <section>
-      <h1 id="idealjob">Ideal Job</h1>
+    <section id="Personality">
       <article>
-        <h2>Level 2 - IT Support Engineer</h2>
-          <ul>
-            <li>link: <a href="https://www.seek.com.au/job/57210416?type=promoted#sol=e5b266ec640145afa2f0ecdb6817760385500655" target="_blank">Seek Job Advert</a></li>
-            <li>PDF <a href="https://github.com/Tomas5786/Profile/blob/main/COSC2196%20%E2%80%93%20Introduction%20to%20Information%20Technology%20-%20My%20Ideal%20Job.pdf" target="_blank">Download</a></li>
-          </ul>
-          <p> This position is along the same lines as what I currently do for my job, helping a broad range of customers with there IT needs and making sure their systems are running with out any issues.
-A good knowledge of Cloud Systems (Microsoft 365, Azure), Windows systems (Desktop and Server), networking (Routers, Firewalls and Switches) and general knowledge of Microsoft products (Exchange, Sharepoint and Teams).
-I have 3 years with of experience in IT support working with both OnBoard IT/ADITS,  servicing Windows Desktops and Servers form W7 to Server 2019. I have experience with supporting Exchange (Online and Onsite) MDM enrolment with Android and iOS devices.
-Keep my skills up to date by going through online courses offered by Microsoft and other IT service providers. Completing my qualification with RMIT.</p>
       </article>
     </section>
-    <section>
-      <h1 id="projectidea">Project Idea</h1>
-        <article>
-          <h2>Overview</h2>
-          <p>The reason behind creating an app for Integrated Public Transport for QLD is to help people from other states and locals get travel schedules for different systems of Public Transport, for example in Queensland when you look at the current MyTransLink app you only get time for a specific route you are traveling on, Bus or Train only, with no connection information to other modes for when you arrive at your destination. The app will show the different departure times for an ongoing connection. You will also be able to tell the difference between bus and train networks via colour coding and showing the route name. For example, Route 201 in Townsville would be shown as a pink circle with a bus.</p>
-        </article>
-        <article>
-          <h2>Motivation</h2>
-          <p>Queensland is a large state with multiple different public transport networks that all work different to each other but are covered under TransLink Queensland. However, they have little communication and consistency between them which can make travel hard. Brining all the information under one app will help Queensland locals and tourists get the information they need to plan trips across the state.
-The app will use both Android and iOS to help deliver the information to the customer. This will make it easy to use and give the customer the ability to customise the app to areas that they are travelling to or live in. With updates being pushed out by the respective app stores. </p>
-        </article>
-        <article>
-          <h2>Description</h2>
-          <p>This product is an application to bring Queensland public transport in line with other states—many of which have an app to cover the entirety of public transport to keep passengers and customers informed. Currently, the public transport is very segmented, it’s difficult to plan trips as you have to take into account a lack of communication between the various modes of transport and the companies that run them.
-One of the main features of this app will be to provide users with a full list of departure and arrival times for any given public transport mode available in their chosen area (be it via GPS location of the customer chosen platform, by a manually inputted numerical address or by a general area), allowing the user more control over their trip, and the ability to make more informed decisions about the mode of transit they have available for them to take based on a number of their chosen factors such as speed, distance, number of stops, switching between different modes of transport and whatever else the user requires. This will also allow the user to easily expand or reduce the scope of their chosen trip with real time updating, showing available options for other destinations that are available along way, from their destination or even upcoming stations between them and the end point. Potentially, this also has an advantage in terms of allowing people to safely navigate areas they may not be familiar with, or during times when travel isn’t always ideal (late at night when alone, for example), with up to date and accurate information.
-Alongside current timetable information (which would include trains, local buses, light rail system on the Gold Coast, ferries, and coaches) updated regularly, the user would also have access to up-to-date fare information, to allow them to plan the financial side of any public transport based trip. With this information, there will also be an explanation and listing of the way trips are divided based on the region the user is in or travelling too such as the different travel zones in Brisbane or Townsville, that dictate how much you are charged per trip. This will even show the fares for the different trip’s types on offer; one way, return, 2-hour, daily, etc.
-For areas where it is applicable, the app will also offer maps to give an over view of the areas services and rough locations. In more urban areas such as larger cities, this will include interactive maps and real-time updates of service delays where they can be provided. Unfortunately, this is not something that can be provided everywhere, as some places (such as Townsville for example) lack the public transport infrastructure or information to provide real-time updates on that level. Rest assured, as soon as that information were to become available, it would be applied to the app via an update.
- In the initial stages, while it would be ideal to have it cover everywhere on the same level, the app would have basic information for all of Queensland the focus would at first be on areas with high population density/tourist visitors and strong public transport infrastructure, such as South East Queensland, Cairns or Mackay.</p>
-        </article>
-        <article>
-          <h2>Tools and Technologies</h2>
-          <p>To make this application viable we would need access to a SQL database to house all the information for public transport routes. This can be as easy as setting up a MySQL database on a Ubuntu Server. The server itself does not need to be anything powerful and could be ran off a Raspberry Pi 4.
-
-For the app development side, we would be able to use Googles Android Studio with the Flutter plugin installed. Flutter will use the Dart framework to enable cross platform development as it allows access to both the Android and iOS API’s. This will mean only one application will need to be developed for both platforms keep features in parity. </p>
-        </article>
-        <article>
-          <h2>Outcome</h2>
-          <p>When the project is created it will enable local Queensland residents the ability to plan their public transport trip as well as giving tourists to the state the ability to see what is on offer for a given area whilst also giving them the ability to work out the best cost fare to cover them. They will also be able to see what other trips are available to them when searching to travel by public transport to local attractions.
-
-This will also solve the issue of having to have multiple applications or timetable information and maps for various areas of Queensland.</p>
-        </article>
-      </section>
-    </div>
+    <section id="IdealJob">
+      <article>
+      </article>
+    </section>
+    <section id="ProjectIdea">
+      <article>
+      </article>
+    </section>
+    <section id="Contact">
+      <article>
+      </article>
+    </section>
   </body>
 </html>
