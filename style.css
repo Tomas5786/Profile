@@ -4,9 +4,10 @@
 body {font-family: "Poppins", sans-serif; margin: 0; background-color: #2D3142;}
 section {min-height: 150vh;}
 article {width: 90%; max-width: 1024px; padding: 20px; margin: 0px auto;}
-p {font-size: 1.5em; text-align: center;}
-section#AboutMe, section#IdealJob, section#Contact {background-color: #4F5D75; color: #FFFFFF;}
-section#Personality, section#ProjectIdea {background-color: #7989A4; color: #FFFFFF;}
+p {font-size: 1.5em; font-family: "Lato", sans-serif;}
+#Personality section {padding-bottom: 100px;}
+#AboutMe, #IdealJob, #Contact {background-color: #4F5D75; color: #FFFFFF;}
+#Personality, #ProjectIdea {background-color: #7989A4; color: #FFFFFF;}
 .nav-container {position: sticky; top: 0; width: 100%; background-color: #2D3142;}
 .navbar {display:grid; grid-template-columns: 0.2fr auto 1fr; align-items: center; height: 80px; width: 90%; max-width: 1720px; margin: 0 auto;}
 #navbar-logo {justify-self: start; margin-left: 20px;}
@@ -16,20 +17,37 @@ section#Personality, section#ProjectIdea {background-color: #7989A4; color: #FFF
 .nav-menu img {width: 25px; height: 25px; vertical-align: middle; margin-right: 10px;}
 .footer {position: static; left: 0; bottom: 0; width: 100%; background-color: #2D3142; color: #FFFFFF;}
 .footer p {text-align: right; font-size: 1em; padding-right: 10px;}
-section#AboutMe h1 {font-family: "Muli", sans-serif; font-size: 2.5em;}
-section#AboutMe h2 {font-family: "Muli", sans-serif; font-size: 1.5em;}
-section#AboutMe p {font-family: "Lato", sans-serif; font-size: 1em; text-align: left; padding-left: 20px;}
+h1 {font-family: "Muli", sans-serif; font-size: 2.5em;}
+h2 {font-family: "Muli", sans-serif; font-size: 1.5em;}
+#AboutMe p {font-family: "Lato", sans-serif; font-size: 1em; text-align: left; padding-left: 20px;}
 .column-2 {background-color: #2D3142; float: left; width: 45%; padding: 25px; padding-left: 20px; padding-right: 20px; padding-bottom: 50px; height: 300px; margin: 6px; margin-right: 5px; margin-bottom: 40px;}
 .column-2 td {padding: 0 30px; font-family: "Lato", sans-serif; padding-bottom: 1em;}
 .info br {display: block; margin: 20px 0;}
 .about-img img {display: block; width: 200px;}
 .about-img {width: 200px; height: 200px; overflow: hidden; border-radius: 50%; transition: all 0.5s ease-in-out;}
 .about-left-content {border-radius: 12px; width:80%;}
-.about-left {display: flex; float: left; align-items: center; justify-content: center; height: 150px; padding-top: 150px; padding-bottom: 150px; width: 25%;}
-.about-right {display: flex; float: left; align-items: center; justify-content: center; height: 150px; padding-top: 150px; padding-bottom: 150px; width: 75%;}
+.about-left  {display: flex; float: left; align-items: center; justify-content: center; height: 150px; padding-top: 150px; padding-bottom: 150px; width: 25%;}
+.about-right  {display: flex; float: left; align-items: center; justify-content: center; height: 150px; padding-top: 150px; padding-bottom: 150px; width: 75%;}
 .about-left-content h2 {font-size: 2rem; line-height: 1.2; padding-bottom: 1rem; border-bottom: 2px solid #EF8354; text-align: center;}
 .about-left-content h3 {text-transform: uppercase; font-weight: 300; letter-spacing: 5px; margin-top: 1.2rem; text-align: center;}
 .icons {display: flex; justify-content: center; padding: 0.8rem 0; border-radius: 0 0 12px 12px; padding-left: 30px;}
 .icons li {list-style-type: none; width: 40px; height: 10px; margin: 0 0.5rem; border-radius: 50%; display: flex; justify-content: center; align-items: center;}
 .icons img {heigh: 25px; width: 25px;}
-.it-left-content h2, .it-right-contenet h2 {font-family:"Caveat", sans-serif; font-weight: 400;}
+.interestit-para p {font-family: "Lato", sans-serif; text-align: left;}
+#Personality h1 {margin-bottom: -20px}
+.personality-left {display: flex; float: left; align-items: center; justify-content: center; height: 150px; padding-top: 150px; padding-bottom: 200px; width: 35%;}
+.personality-right  {display: flex; float: left; align-items: center; justify-content: center; height: 150px; padding-top: 150px; padding-bottom: 200px; width: 65%;}
+.personality-parra p {padding: 0.5rem; padding-left: 50px; font-family: "Lato", sans-serif; text-align: left; font-size: 20px;}
+.personality-img img {width: 250px; height: 450px; }
+.learning-left {display: flex; flex-direction: column; float: left; align-items: center; height: 150px; width: 35%;}
+.learning-right {display: flex; flex-direction: column; float: left; align-items: center; justify-content: center; height: 150px; padding-top: 70px; padding-bottom: 200px; width: 65%;}
+.yourscore {list-style: none; padding-right: 200px;}
+.exlink {display: flex; align-items: center;}
+.exlink img {height: 25px; width: 25px;}
+.learning-parra p {font-family: "Lato", sans-serif; text-align: left; font-size: 20px;}
+.leadership-img img {width: 300px; }
+.leadership-left {display: flex; flex-direction: column; float: left; align-items: center; height: 150px; width: 35%;}
+.leadership-right {display: flex; flex-direction: column; float: left; align-items: center; justify-content: center; height: 150px; padding-top: 70px; padding-bottom: 200px; width: 65%;}
+#ppquestions p {font-family: "Lato", sans-serif; text-align: left; font-size: 15px;}
+.question {font-weight: 940; font-style: italic;}
+.IdealJob-pdf {padding-top: 50px;}
