@@ -2,10 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body {font-family: "Poppins", sans-serif; margin: 0; background-color: #2D3142;}
-section {min-height: 150vh;}
+
 article {width: 90%; max-width: 1024px; padding: 20px; margin: 0px auto;}
 p {font-size: 1.5em; font-family: "Lato", sans-serif;}
-#Personality section {padding-bottom: 100px;}
 #AboutMe, #IdealJob, #Contact {background-color: #4F5D75; color: #FFFFFF;}
 #Personality, #ProjectIdea {background-color: #7989A4; color: #FFFFFF;}
 .nav-container {position: sticky; top: 0; width: 100%; background-color: #2D3142;}
@@ -47,7 +46,9 @@ h2 {font-family: "Muli", sans-serif; font-size: 1.5em;}
 .learning-parra p {font-family: "Lato", sans-serif; text-align: left; font-size: 20px;}
 .leadership-img img {width: 300px; }
 .leadership-left {display: flex; flex-direction: column; float: left; align-items: center; height: 150px; width: 35%;}
-.leadership-right {display: flex; flex-direction: column; float: left; align-items: center; justify-content: center; height: 150px; padding-top: 70px; padding-bottom: 200px; width: 65%;}
+.leadership-right {display: flex; flex-direction: column; float: left; align-items: center; justify-content: center; height: 150px; padding-top: 70px; padding-bottom: 150px; width: 65%;}
 #ppquestions p {font-family: "Lato", sans-serif; text-align: left; font-size: 15px;}
 .question {font-weight: 940; font-style: italic;}
 .IdealJob-pdf {padding-top: 50px;}
+.joblink {display: flex; align-items: center; padding-top: 20px;}
+.joblink img {height: 25px; width: 25px;}
